@@ -25,6 +25,7 @@ body{
     color: #ffffff;
     border-radius: 2px;
     font-weight: bold;
+    transition: .3s; 
 }
 
 p.p1{
@@ -45,11 +46,11 @@ p.p2{
     width: 100px;
 }
 p.p2:hover{
-    background: gray;
+    background:  rgb(45, 180, 45);
     cursor: pointer;
 }
 #si{
-    background: #515050;
+    background: rgb(147, 1, 1);
     left: 420px;
     position: absolute;
     top: 122px;
@@ -57,4 +58,5 @@ p.p2:hover{
     color: #ffffff;
     padding: 50px;
     display: none;
+    border-radius: 5px;
 }
